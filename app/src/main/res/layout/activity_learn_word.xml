@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ibClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_24"
+        android:layout_marginTop="@dimen/margin_24"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/content_description_close"
+        android:src="@drawable/ic_close"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvQuestionWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:minLines="2"
+        android:paddingHorizontal="@dimen/margin_32_main"
+        android:singleLine="false"
+        android:text="Galaxy"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_50_question_word"
+        app:layout_constraintBottom_toTopOf="@+id/layoutVariants"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="HardcodedText"
+        tools:text="Galaxyyyyyyyyyyyyyy" />
+
+    <LinearLayout
+        android:id="@+id/layoutVariants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_32_main"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <LinearLayout
+            android:id="@+id/layoutAnswer1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_70_answer_container"
+            android:background="@drawable/shape_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvVariantNumber1"
+                android:layout_width="@dimen/size_40_variant_number_side"
+                android:layout_height="@dimen/size_40_variant_number_side"
+                android:layout_marginStart="@dimen/margin_12"
+                android:background="@drawable/shape_rounded_variants"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/textVariantsColor"
+                android:textSize="@dimen/text_size_16_main"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvVariantValue1"
+                style="@style/TextViewVariantsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_8"
+                android:text="Сломать"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutAnswer2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_70_answer_container"
+            android:layout_marginTop="@dimen/margin_18_top_containers"
+            android:background="@drawable/shape_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvVariantNumber2"
+                android:layout_width="@dimen/size_40_variant_number_side"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/margin_12"
+                android:background="@drawable/shape_rounded_variants"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/textVariantsColor"
+                android:textSize="@dimen/text_size_16_main"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvVariantValue2"
+                style="@style/TextViewVariantsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_8"
+                android:text="Сон"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutAnswer3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_70_answer_container"
+            android:layout_marginTop="@dimen/margin_18_top_containers"
+            android:background="@drawable/shape_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvVariantNumber3"
+                android:layout_width="@dimen/size_40_variant_number_side"
+                android:layout_height="@dimen/size_40_variant_number_side"
+                android:layout_marginStart="@dimen/margin_12"
+                android:background="@drawable/shape_rounded_variants"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/textVariantsColor"
+                android:textSize="@dimen/text_size_16_main"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvVariantValue3"
+                style="@style/TextViewVariantsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_8"
+                android:text="Галактика"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutAnswer4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_70_answer_container"
+            android:layout_marginTop="@dimen/margin_18_top_containers"
+            android:background="@drawable/shape_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvVariantNumber4"
+                android:layout_width="@dimen/size_40_variant_number_side"
+                android:layout_height="@dimen/size_40_variant_number_side"
+                android:layout_marginStart="@dimen/margin_12"
+                android:background="@drawable/shape_rounded_variants"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/textVariantsColor"
+                android:textSize="@dimen/text_size_16_main"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvVariantValue4"
+                style="@style/TextViewVariantsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_8"
+                android:text="Утюг"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/btnSkip"
+        style="@style/TextButtonsStyle"
+        android:layout_width="@dimen/width_310_button"
+        android:layout_height="@dimen/height_58_button"
+        android:layout_marginBottom="@dimen/margin_24"
+        android:background="@drawable/shape_button_footer"
+        android:backgroundTint="@color/buttonBlueColor"
+        android:text="@string/button_skip"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/correctAnswerColor"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_height="@dimen/height_136_result"
+        tools:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ivResultIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size_36_icon_start"
+            android:layout_marginTop="@dimen/margin_18_top_containers"
+            android:contentDescription="@string/content_description_correct"
+            android:src="@drawable/ic_correct"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvResultMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_8"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/title_correct"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_22_result_message"
+            app:layout_constraintBottom_toBottomOf="@+id/ivResultIcon"
+            app:layout_constraintStart_toEndOf="@+id/ivResultIcon"
+            app:layout_constraintTop_toTopOf="@+id/ivResultIcon" />
+
+        <android.widget.Button
+            android:id="@+id/btnContinue"
+            android:layout_width="@dimen/width_310_button"
+            android:layout_height="@dimen/height_58_button"
+            android:layout_marginTop="@dimen/margin_12"
+            android:layout_marginBottom="@dimen/margin_24"
+            android:background="@drawable/shape_button_footer"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/button_continue"
+            android:textAllCaps="true"
+            android:textColor="@color/correctAnswerColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivResultIcon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

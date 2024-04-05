@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">EngWordsApp</string>
+    <string name="app_name" translatable="false">EnglishWordsApp</string>
+
+    <string name="button_skip">Skip</string>
+    <string name="button_continue">Continue</string>
+
+    <string name="title_correct">Correct!</string>
+    <string name="title_wrong">Wrong!</string>
+
+    <string name="content_description_close">close image button</string>
+    <string name="content_description_correct">correct answer icon</string>
+    <string name="content_description_wrong">wrong answer icon</string>
 </resources>

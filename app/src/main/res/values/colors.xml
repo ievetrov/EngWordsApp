@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="textVariantsColor">#888992</color>
+    <color name="backgroundVariantsColor">#EEEEEF</color>
+    <color name="buttonBlueColor">#2574FF</color>
+    <color name="correctAnswerColor">#0EAD69</color>
+    <color name="wrongAnswerColor">#FA4169</color>
 </resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Margin -->
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18_top_containers">18dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_32_main">32dp</dimen>
+    <dimen name="margin_86_top_word">86dp</dimen>
+
+    <!-- Radius -->
+    <dimen name="radius_10_variants">10dp</dimen>
+    <dimen name="radius_20_container">20dp</dimen>
+    <dimen name="radius_22_button">22dp</dimen>
+
+    <!-- Size -->
+    <dimen name="size_36_icon_start">36dp</dimen>
+    <dimen name="size_40_variant_number_side">40dp</dimen>
+    <dimen name="height_58_button">58dp</dimen>
+    <dimen name="height_70_answer_container">70dp</dimen>
+    <dimen name="height_136_result">136dp</dimen>
+    <dimen name="width_310_button">310dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="text_size_16_main">16sp</dimen>
+    <dimen name="text_size_22_result_message">22sp</dimen>
+    <dimen name="text_size_50_question_word">50sp</dimen>
+
+</resources>
