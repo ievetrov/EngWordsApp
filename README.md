@@ -17,3 +17,8 @@
 - **Мой телеграм-канал**: [Подписаться](https://t.me/ievetrov_dev)
 - **Сайт с текстовыми версиями уроков и вопросами для собеседований**: [Перейти](https://ievetrov.ru/)
 
+
+
+Основные компоненты Android
+
+- Activity, Service, Content Provider, Broadcast Receiver
